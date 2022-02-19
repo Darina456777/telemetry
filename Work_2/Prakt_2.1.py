@@ -1,8 +1,13 @@
 #Задание 2.1
 
-name1 = input('Введите имя:')
-name2 = input('Введите фамилию:')
-age = int(input('Введите возраст:'))
+massive = [1, 2, 3, 4, 5, 'today']
 
 
-print(name1, name2, age)
+def my_type(element):
+    for element in range(len(massive)):
+        print(type(massive[element]))
+    return
+
+
+my_type(massive)
+
